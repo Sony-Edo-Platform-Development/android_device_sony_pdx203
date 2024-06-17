@@ -17,6 +17,9 @@
 # Inherit from sony sm8250-common
 -include device/sony/sm8250-common/BoardConfigCommon.mk
 
+# Inherit from sony extra stuff
+include device/sony/extra/BoardConfigExtra.mk
+
 DEVICE_PATH := device/sony/pdx203
 
 # Display
